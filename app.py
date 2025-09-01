@@ -14,3 +14,6 @@ if __name__ == "__main__":
     # 这里读取环境变量 PORT，Railway 会传 8080
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
+
+
+fix: change port to use Railway env
